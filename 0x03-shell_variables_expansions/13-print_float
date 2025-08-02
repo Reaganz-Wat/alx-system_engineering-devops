@@ -1,2 +1,4 @@
 #!/bin/bash
-printf "%.2f\n" "$NUM"
+for n in $NUM; do
+  printf "%.2f\n" "$n"
+done
